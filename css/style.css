@@ -45,7 +45,6 @@ a {
 }
 a:hover {
     color: rgb(171, 155, 248);
-    text-decoration: underline;
     transition: 0.4s;
 }
 .bg-blue {
