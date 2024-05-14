@@ -40,3 +40,8 @@ h2 {
     gap: 120px;
     margin-bottom: 80px;
 }
+
+#section-demonstracao h2 {
+    color: white;
+    margin-bottom: 150px;
+}
