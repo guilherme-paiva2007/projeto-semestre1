@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
+main {
+    height: calc(100vh - 77.6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    padding: 0 12px;
+}
+
+div {
+    margin: 40px 0;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, rgb(35, 35, 85), black);
+}
