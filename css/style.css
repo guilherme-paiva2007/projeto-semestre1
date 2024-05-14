@@ -16,3 +16,10 @@ nav, .navlinks, ul, li, a{
 .navlinks {
     margin-right: 15%;
 }
+footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
