@@ -33,3 +33,10 @@ h1 {
 h2 {
     font-size: 40px;
 }
+
+#section-demonstracao div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 120px;
+    margin-bottom: 80px;
+}
