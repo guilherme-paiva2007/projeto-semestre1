@@ -7,14 +7,14 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80%;
-    margin: 0 auto;
+    align-items: center;
     color: white;
     padding: 0 12px;
 }
 main div {
     margin: 40px 0;
 }
-.bg-blue{
-    
+#idee{
+    width: 70%;
+    padding: 10px;
 }
