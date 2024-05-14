@@ -21,11 +21,14 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    line-height: 10px;
     padding-left: 5%;
     height: 10%;    
     display: flex;
     justify-content: space-evenly;
+}
+#icons{
+    display: flex;
+    align-items: center;
 }
 footer a{
     color: rgba(255, 255, 255, 0.601);
