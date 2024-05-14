@@ -4,7 +4,7 @@
 }
 
 main {
-    height: calc(100vh - 77.6px);
+    height: calc(100vh - 92.6px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +14,7 @@ main {
     padding: 0 12px;
 }
 
-div {
+main div {
     margin: 40px 0;
 }
 
