@@ -1,25 +1,43 @@
 main {
+    background-color: rgb(65, 181, 230);
+    height: 78vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #equipe{
-
+    background-color: rgb(53, 52, 52) ;
+    margin-top: 10vh;
     width:  70% ;
     height: 70%;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 10px 50px rgb(52, 56, 111);
     align-items: center;
+    margin: 2px, solid rgb(255, 255, 255);
     
 }
 
 #integrantes{
+   
+    border-top: 2px solid rgb(121, 120, 120);
+    height: 50vh ;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     
+    
 }
 
 #titolo{
+    color: white;
     text-align: center;
+}
+
+.icom{
+    width: 100px;
+    padding: 0;
+}
+
+.pessoa{
+    margin-right: 30% ;
 }
