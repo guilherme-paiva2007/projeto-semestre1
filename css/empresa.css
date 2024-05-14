@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 main {
     height: calc(100vh - 92.6px);
     display: flex;
@@ -13,7 +12,9 @@ main {
     color: white;
     padding: 0 12px;
 }
-
 main div {
     margin: 40px 0;
+}
+.bg-blue{
+    
 }
