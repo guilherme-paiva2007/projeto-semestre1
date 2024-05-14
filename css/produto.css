@@ -1,0 +1,22 @@
+#section-sobre, #section-problema, #section-demonstracao {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section-sobre {
+    justify-content: center;
+}
+
+#section-problema {
+    justify-content: space-evenly;
+}
+
+.p-descricao {
+    width: 80%;
+}
+
+div h2 {
+    text-align: center;
+}
