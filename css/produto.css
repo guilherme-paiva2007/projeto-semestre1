@@ -7,10 +7,15 @@
 
 #section-sobre {
     justify-content: center;
+    background: url('../img/protoboard_1.jpg') no-repeat fixed center;
 }
 
 #section-problema {
     justify-content: space-evenly;
+}
+
+#section-demonstracao {
+    justify-content: center;
 }
 
 .p-descricao {
@@ -19,4 +24,12 @@
 
 div h2 {
     text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
 }
