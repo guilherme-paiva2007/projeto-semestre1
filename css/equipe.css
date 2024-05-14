@@ -1,0 +1,9 @@
+main{
+    background-color: lightseagreen;
+    width: 100vh;
+}
+
+div{
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(71, 64, 64);
+}
