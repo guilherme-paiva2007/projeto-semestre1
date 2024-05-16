@@ -44,7 +44,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: rgb(171, 155, 248);
+    color: rgb(65, 181, 230);
     transition: 0.4s;
 }
 .bg-blue {
