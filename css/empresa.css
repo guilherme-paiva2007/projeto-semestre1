@@ -3,12 +3,18 @@
     padding: 0;
 }
 main {
-    background-color: rgb(65, 181, 230);
-    height: calc(100vh - 92.6px);
+    height: calc(100vh - 91.6px);
+    padding: 0 12px;
+    background: url('../img/circuito.jpg') no-repeat center fixed;
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+main {
+    height: calc(100vh - 92.6px);
     color: white;
     padding: 0 12px;
 }
@@ -16,7 +22,7 @@ main div {
     margin: 40px 0;
 }
 .idee{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     width: 60%;
     padding: 10px;
     margin-bottom: 90px;
