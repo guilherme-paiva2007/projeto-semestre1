@@ -65,18 +65,17 @@ h2 {
 } 
 
 #compra{
-    border-radius: 15px;
+    border-radius: 5px;
     margin-bottom: 10px;
 }
 
 #compra:hover{
-    background-color: rgb(55, 186, 55);
-    color: rgb(230, 196, 2);
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
 }
 #desen{
     text-align: center;
-    background-color: black;
-    color: cornsilk;
+    color: rgb(79, 134, 157);
 }
 a,h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
