@@ -6,54 +6,27 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: x-large;
 }
-
-#section-centro {
-    border: 2px black solid;
-    background-color: rgb(79, 134, 157);
-    box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.596);
-}
-
 #centro-topo {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 8px;
+    color: white;
 }
-
-#centro-topo p {
-    font-size: 20px;
-}
-
-#centro-topo h1, #centro-topo p {
+#centro-topo h1{
     margin: 0 8px;
+    display: flex;
+    text-align: center;
+}
+#empresa{
+    margin: 50px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.241);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
-#centro-noticias {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 5px;
-}
-
-.noticia {
-    width: 20vw;
-    background-color: rgb(188, 188, 188);
-    border-radius: 4px;
-    padding: 9px;
-    margin: 5px;
-}
-
-.noticia h2 {
-    font-size: 18px;
-    margin-bottom: 6px;
-    text-indent: 4px;
-}
-
-.noticia p {
-    text-indent: 20px;
-}
-
-.legenda {
-    font-size: 9px;
-    margin-top: 4px;
-}
