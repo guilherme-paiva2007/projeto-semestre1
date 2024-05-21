@@ -10,8 +10,19 @@
     background: url('../img/protoboard_1.jpg') no-repeat fixed center;
 }
 
+#section-problema div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #section-problema {
     justify-content: space-evenly;
+}
+
+#section-problema p {
+    width: 80%;
+    text-align: center;
 }
 
 #section-demonstracao {
