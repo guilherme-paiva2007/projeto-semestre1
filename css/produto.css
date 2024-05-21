@@ -43,5 +43,28 @@ h2 {
 
 #section-demonstracao h2 {
     color: white;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+    margin-top: 10px !important;
 }
+
+ .produto{
+    width: 400px;
+    margin: 0px ;
+} 
+
+#compra{
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#compra:hover{
+    background-color: rgb(55, 186, 55);
+    color: rgb(230, 196, 2);
+}
+#desen{
+    text-align: center;
+    background-color: black;
+    color: cornsilk;
+}
+
+
