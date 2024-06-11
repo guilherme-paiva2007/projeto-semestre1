@@ -22,10 +22,22 @@ main {
     border-top: 2px solid rgb(121, 120, 120);
     height: 50vh ;
     display: grid;
+    grid-template-areas: 'membro1 membro2' 'membro3 membro3';
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-    
-    
+}
+
+#integrantes li {
+    display: flex;
+    justify-content: center;
+}
+
+#integrantes img {
+    margin-right: 16px;
+}
+
+#membro3 {
+    grid-area: membro3;
 }
 
 #titulo{

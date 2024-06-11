@@ -7,7 +7,18 @@
 
 #section-sobre {
     justify-content: center;
-    background: url('../img/protoboard_1.jpg') no-repeat fixed center;
+    background: url('../img/protoboard_2.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+
+#section-sobre h1 {
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+
+#section-sobre p {
+    color: white;
+    text-shadow: 3px 3px 2px black;
 }
 
 #section-problema div {
@@ -45,7 +56,7 @@ h2 {
     font-size: 40px;
 }
 
-#section-demonstracao div {
+#section-demonstracao > div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 120px;
@@ -58,15 +69,35 @@ h2 {
     margin-top: 10px !important;
 }
 
- .produto{
-    width: 400px;
-    
-    margin: 0px ;
-} 
+.produto-div {
+    display: flex;
+    position: relative;
+}
 
+.produto-div p {
+    position: absolute;
+    bottom: 0;
+    text-indent: 8px;
+    transition: 0.5s;
+    opacity: 0;
+    color: white;
+}
+
+.produto-div img:hover ~ p {
+    opacity: 1;
+    transform: translate(0, 25px);
+}
+
+.produto{
+    width: 400px;
+    margin: 0px ;
+    border: 2px white solid;
+} 
+    
 #compra{
     border-radius: 5px;
     margin-bottom: 10px;
+    border: white 2px solid;
 }
 
 #compra:hover{
