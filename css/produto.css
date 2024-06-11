@@ -133,10 +133,16 @@ a,h1{
     text-align: center;
     display: flex;
     justify-content: center;
-    border-bottom: gray;
-    border-right: rgb(128, 128, 128);
+    border-bottom: solid 5px black;
+    border-right: solid 5px black;
+    transition: 0.3s;
 
 }
+
+.quadro:hover {
+    border-color: gray;
+}
+
 #falta{
     margin-bottom: 50px;
 
