@@ -1,5 +1,7 @@
 main {
-    background-color: rgb(65, 181, 230);
+    /* background-color: rgb(65, 181, 230); */
+    background: url('../img/fundo-equipe.png') no-repeat fixed center;
+    background-size: cover;
     height: 78vh;
     display: flex;
     flex-direction: column;
