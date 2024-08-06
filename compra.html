@@ -13,15 +13,41 @@
             <img src="./img/logo.png" alt="" width="100px" height="70px">
             <div class="navlinks">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html">Início</a></li>
                     <li><a href="produto.html">Produto</a></li>
                     <li><a href="empresa.html">Empresa</a></li>
                     <li><a href="equipe.html">Equipe</a></li>
                 </ul>
             </div>
         </nav>
-        <a href="./produto.html">⬅ Voltar</a> 
-        <h1 id="desen">Em desenvolvimento</h1>
+        <main id="formulario">
+        <div id="logar">
+            <form action="./index.html" style=" border: 1px solid black;">
+            
+                <h1 id="h1form">conectise</h1>
+                <p>Por favor preencha este formulário para criar uma conta.</p>
+                <hr>
+                <div id="form">
+                <label for="Email"><b>Email :</b></label>
+                <input type="email" placeholder="Enter Email" name="email" required> 
+
+                <label for="senha"><b>Senha :</b></label>
+                <input type="password" placeholder="Enter senha" name="senha" required>
+
+                <label for="repitir senha"><b>Repitir Senha :</b></label>
+                <input type="password" placeholder="repitir senha" name="repitir senha" required>
+
+                <div id="confirmar">
+                    <button type="button" id="cancelar">Cancelar</button>
+                    <button type="submit" id="content">Conectar</button>
+                </div>
+                </div>
+            </form>
+        </div>
+        </main>
+
+        
+        
         <footer>
             <p>Contate-nos:</p>
             <div id="icons">

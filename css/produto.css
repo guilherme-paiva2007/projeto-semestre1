@@ -30,7 +30,7 @@
 
 #section-problema {
     justify-content: space-evenly;
-    flex-direction: initial;
+    flex-direction: initial;  
 }
 
 #section-problema p {
@@ -49,6 +49,7 @@
 
 #section-demonstracao {
     justify-content: center;
+    
 }
 
 .p-descricao {
@@ -124,6 +125,7 @@ a,h1{
 }
  #produto{
     font-size: larger;
+    font-size: 20px;
 } 
 .quadro{
     background-color: white;
@@ -153,4 +155,72 @@ a,h1{
 
 }
 
+#formulario{
+    background:linear-gradient(to top , rgb(55, 55, 55), rgb(149, 148, 148) );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87.4vh;
+
+
+}
+#logar{
+    margin-top: 50px;
+    width: 500px;
+    
+
+}
+
+form{
+    background-color: rgb(102, 126, 246);
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#h1form{
+    font-size: large;
+}
+
+
+* {box-sizing: border-box}
+
+  input[type=email], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=email]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #0f0f0f;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color: #86bded;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover{
+    background-color: #081847;
+}   
 
